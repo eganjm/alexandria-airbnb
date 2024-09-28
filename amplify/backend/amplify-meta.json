@@ -2,14 +2,14 @@
   "providers": {
     "awscloudformation": {
       "AuthRoleName": "amplify-faqreact-dev-04a74-authRole",
-      "UnauthRoleArn": "arn:aws:iam::727796463450:role/amplify-faqreact-dev-04a74-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::727796463450:role/amplify-faqreact-dev-04a74-authRole",
+      "UnauthRoleArn": "arn:aws:iam::727796463450:role/amplify-faqreact-dev-04a74-",
+      "AuthRoleArn": "arn:aws:iam::727796463450:role/amplify-faqreact-dev-04a74-",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-faqreact-dev-04a74-deployment",
-      "UnauthRoleName": "amplify-faqreact-dev-04a74-unauthRole",
-      "StackName": "amplify-faqreact-dev-04a74",
-      "StackId": "arn:aws:cloudformation:us-east-1:727796463450:stack/amplify-faqreact-dev-04a74/50607030-1bb6-11ef-9231-0e0cf1aea667",
-      "AmplifyAppId": "d36c45vbg3alon"
+      "DeploymentBucketName": "amplify-faqreact-dev-04a74-",
+      "UnauthRoleName": "amplify-faqreact-dev-04a74-",
+      "StackName": "amplify-faqreact-dev-",
+      "StackId": "arn:aws:cloudformation:us-east-1:727796463450:stack/amplify-faqreact",
+      "AmplifyAppId": ""
     }
   },
   "auth": {
@@ -20,9 +20,9 @@
       "dependsOn": [],
       "customAuth": false,
       "output": {
-        "UserPoolId": "us-east-1_XLNJbwPAt",
-        "UserPoolName": "airbnb4e07efd8_userpool_4e07efd8-dev",
-        "AppClientID": "17hgfbokm0n91ao3d6tjcctbji",
+        "UserPoolId": "us-east-",
+        "UserPoolName": "-dev",
+        "AppClientID": "",
         "AppClientIDWeb": "17hgfbokm0n91ao3d6tjcctbji",
         "HostedUIDomain": "signin.alexandria-airbnb.com"
       },
