@@ -1,8 +1,8 @@
 {
   "aws_project_region": "us-east-1",
   "aws_cognito_region": "us-east-1",
-  "aws_user_pools_id": "us-east-1_XLNJbwPAt",
-  "aws_user_pools_web_client_id": "17hgfbokm0n91ao3d6tjcctbji",
+  "aws_user_pools_id": "us-east-",
+  "aws_user_pools_web_client_id": "",
   "oauth": {
     "domain": "signin.alexandria-airbnb.com.auth.us-east-1.amazoncognito.com"
   },
