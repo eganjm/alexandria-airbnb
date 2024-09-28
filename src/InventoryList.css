@@ -1,0 +1,27 @@
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .inventory-table th,
+  .inventory-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+.inventory-table th:first-child,
+.inventory-table td:first-child {
+  width: 20%; /* Adjust this value as needed */
+}
+  
+  .inventory-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  

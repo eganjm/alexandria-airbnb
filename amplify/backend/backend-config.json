@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "faqreact": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_faqreact_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "faqreact"
+        }
+      ]
+    },
+    "AMPLIFY_auth_faqreact_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "faqreact"
+        }
+      ]
+    },
+    "AMPLIFY_auth_faqreact_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "faqreact"
+        }
+      ]
+    },
+    "AMPLIFY_auth_faqreact_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "faqreact"
+        }
+      ]
+    }
+  }
+}

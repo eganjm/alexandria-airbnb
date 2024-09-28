@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  max-width: 450px; /* Example max-width for container */
+  border: 1px solid #ddd; /* Just for visualization */
+}
+
+.responsive-img {
+  width: 100%; /* Make the image take up 100% of the container's width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+/* Media query for laptops and larger screens */
+@media (min-width: 768px) {
+  img {
+    max-width: 768px; /* Limit width for larger screens */
+  }
+}
+
+/* Media query for iPhones and smaller screens */
+@media (max-width: 480px) {
+  img {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+  video {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}
+
+/* Media query for laptops and larger screens */
+@media (min-width: 481px) {
+  video {
+    max-width: 65%; /* Limit width for larger screens */
+    max-height: auto;
+  }
+}
+
+.faq-list {
+  margin-left: 10px;
+}
+
